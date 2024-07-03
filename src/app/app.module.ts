@@ -3,10 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { MenuComponent } from './pages/portfolio/menu/menu.component';
+import { CabecalhoComponent } from './pages/portfolio/cabecalho/cabecalho.component';
+import { ProjetosComponent } from './pages/portfolio/projetos/projetos.component';
+import { PiadasComponent } from './pages/repositorio/piadas/piadas.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PortfolioComponent,
+    MenuComponent,
+    CabecalhoComponent,
+    ProjetosComponent,
+    PiadasComponent
   ],
   imports: [
     BrowserModule,
